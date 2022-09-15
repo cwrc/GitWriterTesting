@@ -208,7 +208,6 @@
 	"id": "https://raw.githubusercontent.com/cwrc/GitWriterTesting/master/Test.xml?person_annotation_20190715145715152",
 	"type": "oa:Annotation",
 	"dcterms:created": "2019-07-15T18:57:15.152Z",
-	"dcterms:modified": "2019-07-15T18:57:15.152Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ajmacdonald",
 		"@type": [
@@ -236,7 +235,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/cwrc/GitWriterTesting/master/Test.xml?person_annotation_20190715145715152#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/head/title/persName"
+			"rdf:value": "TEI/text/body/div/head/title/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -578,12 +577,90 @@
 	"cwrc:hasCertainty": "cwrc:definite"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/cwrc/GitWriterTesting/master/Test.xml?person_annotation_20220915184319396",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-15T22:43:19.396Z",
+	"dcterms:modified": "2022-09-15T22:43:19.396Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Luciano Frizzera"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/cwrc/GitWriterTesting/master/Test.xml?person_annotation_20220915184319396#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/cwrc/GitWriterTesting/master/Test.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.stage.lincsproject.ca",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/cwrc/GitWriterTesting/master/Test.xml?person_annotation_20220915184319396#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/title/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/9993162669400955500001/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.stage.lincsproject.ca",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter - Bertrand Russell to <persName cert="probable" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
+					<title>Sample Letter - Bertrand <persName key="Russell, A. T" ref="http://viaf.org/viaf/9993162669400955500001/">Russell</persName> to <persName cert="probable" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
 				</head>
 				<opener>
 					<note>
