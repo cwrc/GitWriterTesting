@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
 	
 	<teiHeader>
@@ -660,8 +660,7 @@
 		<body>
 			<div type="letter">
 				<head>
-					<title>Sample Letter - Bertrand <persName key="Russell, A. T" ref="http://viaf.org/viaf/9993162669400955500001/">Russell</persName> to <persName cert="probable" ref="279399399">Patricia Spence</persName> - October 21, 1935</title>
-				</head>
+					<title>Sample Letter - Bertrand <persName key="Russell, A. T" ref="http://viaf.org/viaf/9993162669400955500001/">Russell</persName> to <persName cert="probable" ref="279399399">Patricia Spence</persName> - October 21, 1937</title></head>
 				<opener>
 					<note>
 						<p>Bad writing due to shaky train 2</p><p>In train</p><p>
